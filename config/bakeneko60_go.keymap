@@ -8,7 +8,6 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/ext_power.h>
 #include <dt-bindings/zmk/keys.h>
-#include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/outputs.h>
 #include <dt-bindings/zmk/rgb.h>
 
@@ -91,7 +90,7 @@
         };
 
         LF1 {
-            bindings = <&kt F1>;
+            bindings = <&kp F1>;
             key-positions = <55 1>;
             timeout-ms = <1000>;
         };
@@ -120,48 +119,6 @@
             timeout-ms = <1000>;
         };
 
-        LF6 {
-            bindings = <&kp F6>;
-            key-positions = <55 6>;
-            timeout-ms = <1000>;
-        };
-
-        LF7 {
-            bindings = <&kp F7>;
-            key-positions = <55 7>;
-            timeout-ms = <1000>;
-        };
-
-        LF8 {
-            bindings = <&kp F8>;
-            key-positions = <55 8>;
-            timeout-ms = <1000>;
-        };
-
-        LF9 {
-            bindings = <&kp F9>;
-            key-positions = <55 9>;
-            timeout-ms = <1000>;
-        };
-
-        LF10 {
-            bindings = <&kp F10>;
-            key-positions = <55 10>;
-            timeout-ms = <1000>;
-        };
-
-        LF11 {
-            bindings = <&kp F11>;
-            key-positions = <55 11>;
-            timeout-ms = <1000>;
-        };
-
-        LF12 {
-            bindings = <&kp F12>;
-            key-positions = <55 12>;
-            timeout-ms = <1000>;
-        };
-
         LDEL {
             bindings = <&kp DEL>;
             key-positions = <55 13>;
@@ -169,7 +126,7 @@
         };
 
         RF1 {
-            bindings = <&kt F1>;
+            bindings = <&kp F1>;
             key-positions = <1 62>;
             timeout-ms = <1000>;
         };
@@ -195,6 +152,54 @@
         RF5 {
             bindings = <&kp F5>;
             key-positions = <5 62>;
+            timeout-ms = <1000>;
+        };
+
+        RDEL {
+            bindings = <&kp DEL>;
+            key-positions = <13 62>;
+            timeout-ms = <1000>;
+        };
+
+        LF6 {
+            bindings = <&kp F6>;
+            key-positions = <55 6>;
+            timeout-ms = <1000>;
+        };
+
+        LF7 {
+            bindings = <&kp F7>;
+            key-positions = <55 7>;
+            timeout-ms = <1000>;
+        };
+
+        LF8 {
+            bindings = <&kp F8>;
+            key-positions = <55 8>;
+            timeout-ms = <1000>;
+        };
+
+        LF9 {
+            bindings = <&kp F9>;
+            key-positions = <9 55>;
+            timeout-ms = <1000>;
+        };
+
+        LF10 {
+            bindings = <&kp F10>;
+            key-positions = <55 10>;
+            timeout-ms = <1000>;
+        };
+
+        LF11 {
+            bindings = <&kp F11>;
+            key-positions = <55 11>;
+            timeout-ms = <1000>;
+        };
+
+        LF12 {
+            bindings = <&kp F12>;
+            key-positions = <55 12>;
             timeout-ms = <1000>;
         };
 
@@ -237,12 +242,6 @@
         RF12 {
             bindings = <&kp F12>;
             key-positions = <12 62>;
-            timeout-ms = <1000>;
-        };
-
-        RDEL {
-            bindings = <&kp DEL>;
-            key-positions = <13 62>;
             timeout-ms = <1000>;
         };
     };
