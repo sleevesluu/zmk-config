@@ -8,6 +8,7 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/ext_power.h>
 #include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/outputs.h>
 #include <dt-bindings/zmk/rgb.h>
 
@@ -87,6 +88,136 @@
             timeout-ms = <50>;
             key-positions = <59 52>;
             bindings = <&mo 2>;
+        };
+
+        LF1 {
+            bindings = <&kt F1>;
+            key-positions = <55 1>;
+        };
+
+        LF2 {
+            bindings = <&kp F2>;
+            key-positions = <55 2>;
+        };
+
+        LF3 {
+            bindings = <&kp F3>;
+            key-positions = <55 3>;
+        };
+
+        LF4 {
+            bindings = <&kp F4>;
+            key-positions = <55 4>;
+        };
+
+        LF5 {
+            bindings = <&kp F5>;
+            key-positions = <55 5>;
+        };
+
+        LF6 {
+            bindings = <&kp F6>;
+            key-positions = <55 6>;
+        };
+
+        LF7 {
+            bindings = <&kp F7>;
+            key-positions = <55 7>;
+        };
+
+        LF8 {
+            bindings = <&kp F8>;
+            key-positions = <55 8>;
+        };
+
+        LF9 {
+            bindings = <&kp F9>;
+            key-positions = <55 9>;
+        };
+
+        LF10 {
+            bindings = <&kp F10>;
+            key-positions = <55 10>;
+        };
+
+        LF11 {
+            bindings = <&kp F11>;
+            key-positions = <55 11>;
+        };
+
+        LF12 {
+            bindings = <&kp F12>;
+            key-positions = <55 12>;
+        };
+
+        LDEL {
+            bindings = <&kp DEL>;
+            key-positions = <55 13>;
+        };
+
+        LF1 {
+            bindings = <&kt F1>;
+            key-positions = <1 62>;
+        };
+
+        RF2 {
+            bindings = <&kp F2>;
+            key-positions = <2 62>;
+        };
+
+        RF3 {
+            bindings = <&kp F3>;
+            key-positions = <3 62>;
+        };
+
+        RF4 {
+            bindings = <&kp F4>;
+            key-positions = <4 62>;
+        };
+
+        RF5 {
+            bindings = <&kp F5>;
+            key-positions = <5 62>;
+        };
+
+        RF6 {
+            bindings = <&kp F6>;
+            key-positions = <6 62>;
+        };
+
+        RF7 {
+            bindings = <&kp F7>;
+            key-positions = <7 62>;
+        };
+
+        RF8 {
+            bindings = <&kp F8>;
+            key-positions = <8 62>;
+        };
+
+        RF9 {
+            bindings = <&kp F9>;
+            key-positions = <9 62>;
+        };
+
+        RF10 {
+            bindings = <&kp F10>;
+            key-positions = <10 62>;
+        };
+
+        RF11 {
+            bindings = <&kp F11>;
+            key-positions = <11 62>;
+        };
+
+        RF12 {
+            bindings = <&kp F12>;
+            key-positions = <12 62>;
+        };
+
+        RDEL {
+            bindings = <&kp DEL>;
+            key-positions = <13 62>;
         };
     };
 };
