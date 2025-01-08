@@ -12,8 +12,8 @@
 #include <dt-bindings/zmk/rgb.h>
 
 &mt {
-    quick-tap-ms = <200>;
-    flavor = "tap-preferred";
+    quick-tap-ms = <100>;
+    flavor = "hold-preferred";
 };
 
 &lt { quick-tap-ms = <200>; };
